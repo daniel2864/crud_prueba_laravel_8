@@ -46,7 +46,7 @@ class PersonaRequest extends FormRequest
                         'min:10|max:12',
                         new IsInteger(),
                     ],
-                    'nombre'     => 'required|string|min:10',
+                    'nombre'     => 'required|string|min:8',
                     'email'    => 'required|string|email|max:70'
                 ];
         }
